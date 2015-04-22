@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=name\ adress\ phonenumber
+comment0.target=instructors(java.lang.String,\ java.lang.String,\ int)
+numComments=1

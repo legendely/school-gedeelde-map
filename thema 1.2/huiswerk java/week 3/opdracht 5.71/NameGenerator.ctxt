@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=F_name\ L_name\ M_name\ C_name
+comment0.target=NameGenerator(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getFirstname()
+comment2.params=
+comment2.target=java.lang.String\ getLastname()
+comment3.params=
+comment3.target=java.lang.String\ getMother_maiden_name()
+comment4.params=
+comment4.target=java.lang.String\ getTown_of_birth()
+comment5.params=F_name
+comment5.target=void\ setFirstname(java.lang.String)
+comment6.params=L_name
+comment6.target=void\ setLastname(java.lang.String)
+comment7.params=M_name
+comment7.target=void\ setMothername(java.lang.String)
+comment8.params=C_name
+comment8.target=void\ setCityname(java.lang.String)
+comment9.params=
+comment9.target=void\ generateStarwarsname()
+numComments=10
