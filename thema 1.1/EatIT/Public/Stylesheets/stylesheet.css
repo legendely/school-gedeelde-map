@@ -1,0 +1,121 @@
+/*
+* Kleuren komen van EatIT Logo.
+* #6FA1D4 - Blauw
+* #ACD589 - Groen
+*/
+
+html, body {
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	font-family: Calibri, "Times New Roman", "Comic Sans MS";
+}
+
+body {
+	overflow: hidden;
+}	
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	margin: 0;
+}
+
+h2, h3, h1 {
+	margin-top: 0; padding: 0;
+}
+
+input[type="text"] {
+	background-color: #ACD589;
+	border: 1px solid black;
+}
+
+input[type="password"] {
+	background-color: #ACD589;
+	border: 1px solid black;
+}
+
+input[type=submit] {
+	background-color: #6FA1D4;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#header img {
+	height: 100%;
+	width: 10%;
+	padding-right: 1em;
+}
+
+#header h1 {
+	padding-top: 1em;
+}
+
+#header {
+	height: 15vh;
+	padding-left: 2em;
+	padding-bottom: 1em;
+	background-color: #ACD589;
+	text-align: center;
+	color: #003B77;
+	width: 100%;
+}
+
+.navigation {
+	padding: 1em;
+	float: left;
+	text-align: center;
+	width: 12%;
+	height: 100vh;
+	background-color: #6FA1D4;
+}
+
+.navigation a:link, a:visited {
+	color: white;
+}
+
+.navigation a:hover {
+	font-weight: bold;
+	color: #ACD589;
+}
+
+.navigation a.selected {
+	font-weight: bold;
+	color: #ACD589;
+	font-size: 150%;
+}
+
+.navigation ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li {
+	list-style-type: none;
+}
+
+#content {
+	margin-top: 1em;
+	margin-left: 16%;
+	overflow: auto;
+	margin-bottom: 50px;
+	height: 80%;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	vertical-align: middle;
+	height: 10vh;
+	width: 90%;
+	padding-left: 10%;
+	background-color: #ACD589;
+	bottom: 0;
+	color: #003B77;
+}

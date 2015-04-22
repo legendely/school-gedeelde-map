@@ -1,0 +1,156 @@
+.edittable {
+    height: 72%;
+    border: none;
+}
+
+.edittable thead {
+    border-collapse: collapse;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+    text-align: left;
+}
+
+.edittable tbody {
+    border-collapse: separate;
+    border-spacing: 1vw;
+    /*background: #09558C;*/
+    /*display: block;*/
+    position: absolute;
+    width: 85%;
+    height: 65%;
+    border-left: 0.1vw solid #ACD589;
+    border-right: 0.1vw solid #ACD589;
+    border-bottom: 0.1vw solid #ACD589;
+    border-top: hidden;
+    overflow-y: auto;
+    top: 23%;
+}
+
+.edittable thead th {
+    position: absolute;
+    background-color: #ACD589;
+    top: 15%;
+    height: 8%;
+    text-align: center;
+    line-height: 3vw;
+    font-weight: normal;
+    font-size: 1.4vw;
+}
+
+.edittable thead th.a {
+    width: 35%;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.edittable thead th.b {
+    width: 12%;
+    left: 43%;
+    /*width: 12.7%;
+    left: 41.7%;*/
+}
+
+.edittable thead th.c {
+    width: 16%;
+    left: 55%;
+    /*width: 12.7%;
+    left: 54.3%;*/
+}
+
+.edittable thead th.d {
+    width: 13%;
+    left: 70%;
+    /*width: 12.7%;
+    left: 67%;*/
+}
+
+.edittable thead th.e {
+    width: 10%;
+    left: 83%;
+    /*width: 10.35%;
+    left: 79.7%;*/
+}
+
+.edittable tbody tr {
+    height: 1.5vw;
+}
+
+
+.edittable tbody td {
+    position: absolute;
+    border-bottom: 0.1vw solid #ACD589;
+    text-align: center;
+    font-size: 1.2vw;
+    color: #0059B2;
+    padding-bottom: 0.5vw;
+}
+
+.edittable tbody td.a {
+    width: 35%;
+    text-align: left;
+}
+
+.edittable tbody td.b {
+    width: 10%;
+    left: 44%;
+}
+
+.edittable tbody td.c {
+    width: 10%;
+    left: 61%;
+}
+
+.edittable tbody td.d {
+    width: 10%;
+    left: 77%;
+}
+
+.edittable tbody td.e {
+    width: 10%;
+    left: 90%;
+    border-bottom: 0;
+    display: inline;
+}
+
+.editico {
+    padding-right: 0.5vw;
+    cursor: pointer;
+}
+
+.delico {
+    padding-left: 0.5vw;
+    cursor: pointer;
+}
+
+.box {
+    position: relative;
+    background-color: white;
+    z-index: 0;
+    padding-left: 8%;
+    height: 35vw;
+}
+
+.newitem {
+    position: absolute;
+    right: 7%;
+    top: 6.5%;
+    text-align: center;
+    color: #ACD589;
+    font-size: 1.4vw;
+    border: 0.1vw solid #ACD589;
+    cursor: pointer;
+    padding: 0.5vw;
+}
+
+p.title {
+    font-size: 1.5vw;
+    color: #ACD589;
+    line-height: 165%;
+}
+
+p.blue {
+    font-size: 1.1vw;
+    color: #09558C;
+}
+

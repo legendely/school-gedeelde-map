@@ -1,0 +1,158 @@
+body{
+    background-color:#F8F8F8;
+    font-family:helvetica;
+    font-size: 16px;
+}
+
+h2{
+    color:#5F5F5F;
+}
+
+/*.login, */.content{
+    margin-right: auto;
+    margin-left: auto;
+    background-color:white;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+
+    margin-top:40px;
+    margin-bottom:40px;
+
+    padding-top:40px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+  /*.login{
+     width:300px;
+    padding:30px;
+  }*/
+
+.footer{
+    color:grey;
+    padding-left:4px;
+    margin-top: -10px;
+    font-size:13px;
+}
+
+.header{
+    margin-top:36px;
+    margin-bottom:-10px;
+}
+
+.menu{
+  font-size: 16px;
+  background-color:white;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  padding:10px;
+  margin-top:50px;
+}
+
+.breadcumb{
+    background-color:blue;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#206ebc;
+}
+
+.menu a:hover{
+    color:black;
+}
+
+.content{
+    padding:30px;
+}
+
+.container{
+    width:75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.invoerveld{
+    width:19vw;
+    padding:10px;
+}
+
+.dropdownveld{
+    width:20.8vw;
+    padding:10px;
+}
+
+.invoerarea{
+    width: 20.36vw;
+    height: 10vw;
+    resize: none;
+}
+
+.submit{
+    background-color:#6699FF;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color:#476BB2;
+    cursor:pointer;
+}
+
+.inCart {
+    background: url('../img/otf_incart.svg') no-repeat;
+    background-size: contain;
+    border:none;
+    cursor: pointer;
+    width: 2vw;
+    height: 3vw;
+    position: relative;
+    top: 0.8vw;
+}
+
+.error{
+  background:#ff826d;
+  margin-bottom:20px;
+  padding:10px;
+  color:white;
+  width:80%;
+}
+
+.success{
+  background:#acd589;
+  margin-bottom:20px;
+  padding:10px;
+  color:white;
+  width:80%;
+  margin-top:36px;
+  margin-bottom:-10px;
+}
+
+#code{
+  font-size: 22px;
+  color:#5F5F5F;
+}
+
+a {
+    color: #206EBC;
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+}
+
+.tablelist{
+  width: 100%;
+}
+
+.tablelist tr td {
+    border-bottom:1pt solid #acd589;
+}
+
+tr.UL td {
+    border-bottom:1pt solid #acd589;
+}
